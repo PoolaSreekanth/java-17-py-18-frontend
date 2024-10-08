@@ -1,0 +1,31 @@
+.container {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Desendant Combinator */
+.container p {
+    color:blue;
+}
+
+/* Child Combinator */
+.container > .child {
+    color: green;
+}
+
+/* Adjacent Sibling */
+ .sibling-example h2 + .adjacent {
+    color: red;
+} 
+
+/* General Sibling */
+.far-sibling-example ~ .end {
+    color: purple;
+}
+
+/*Challenge Task*/
+
+.container span{
+    background-color:yellow ;
+}
+
+
